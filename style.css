@@ -8,11 +8,6 @@ body {
   height: 200px;
 }*/
 
-nav {
-  background-color: #a83250;
-  height: 75px;
-}
-
 header {
   background-image: url(https://ehc-west-0-bucket.s3.us-west-2.amazonaws.com/web/documents/chongqinghouseprovidence/headerbg_5a0c71cd40510.jpg);
   height: 300px;
@@ -147,8 +142,9 @@ song ul {
   height: 450px;
 }
 
-input,
-label {
+
+.details > div > input,
+.details > div > label {
   border: 5px solid white;
   padding: 15px;
   background: rgba(255, 255, 255, 0.5);
@@ -158,11 +154,34 @@ label {
 
 a {
   text-decoration: none;
-
   color: black;
 }
 a:hover {
   text-decoration: #a83250;
   background-color: black;
   color: white;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #a83250;
+  height: 75px;
+}
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
