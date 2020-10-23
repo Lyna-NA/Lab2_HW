@@ -34,6 +34,51 @@ footer {
   height: 300px;
 }
 
+#index_sec {
+  background-image: url(https://image.freepik.com/free-photo/music-device-old-gramophone-with-plate-vinyl-disk-wooden-box-antique-brass-record-player_95891-794.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index_sec_items {
+  width: 50%;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type='submit'] {
+  background-color: #a83250;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  width: 50%;
+  font-size: 0.5em;
+}
+
+input[type='submit']:hover {
+  background-color: black;
+}
+
+form {
+  font-size: 3em;
+}
+
 p {
   background-color: khaki;
   height: 200px;
@@ -68,4 +113,11 @@ tr:hover {
 #table_header {
   position: sticky;
   margin-top: ;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  color: darkgreen;
 }

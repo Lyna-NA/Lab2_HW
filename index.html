@@ -2,23 +2,61 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Lab2</title>
+    <title> Lab2 </title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav></nav>
     <header></header>
-    <div class="main">
-    <section>
-      <!-- main paragraph --> 
-      <p></p>
-      <!-- Two column-type things --> 
-      <div id="flex-container">
-        <div class="col"></div>
-        <div class="col"></div>
+    <section id="index_sec">
+      <div class="index_sec_items">
+      <h1>Search for CD Music</h1>
+     <form>
+      <div class="row">
+        <div class="col-1">
+          <label for="Artist">Artist List :</label>
+        </div>
+        <div class="col-2">
+          <select id="Artist" >
+            <option>Bob Dylan</option>
+            <option>Bonnie Tyler</option>
+            <option>Dolly Parton</option>
+            <option>Gary Moore</option>
+            <option>Eros Ramazzotti</option>
+            <option>Bee Gees</option>
+            <option>Dr.Hook</option>
+            <option>Rod Stewart</option>
+            <option>Andrea Bocelli</option>
+            <option>Percy Sledge</option>
+          </select>
+        </div>
       </div>
-    </section>
+      <div class="row">
+        <div class="col-1">
+          <label for="CD">CDs List :</label>
+        </div>
+        <div class="col-2">
+          <select id="CD">
+            <option>Empire Burlesque</option>
+            <option>Hide your heart</option>
+            <option>Greatest Hits</option>
+            <option>Still got the blues</option>
+            <option>Eros</option>
+            <option>One night only</option>
+            <option>Sylvias Mother</option>
+            <option>Maggie May</option>
+            <option>Romanza</option>
+            <option>When a man loves a woman</option>
+          </select>
+        </div>
+        <br>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+     </form>
     </div>
+    </section>
     <footer></footer>
   </body>
 </html>
